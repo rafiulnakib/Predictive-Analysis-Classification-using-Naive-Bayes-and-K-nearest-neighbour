@@ -15,7 +15,9 @@ The Naïve Bayes was implemented for numeric attributes, using a probability den
 The program takes 3 command line arguments. The first argument is the path to the training data file, the second is the path to the testing data file, and the third is the name of the algorithm to be executed (NB for Naïve Bayes and kNN for the Nearest Neighbour, where k is replaced with a number; e.g. 5NN).
 
 python MyClassifier.py training.txt testing.txt NB
+
 python MyClassifier.py training.txt testing.txt 3NN
+
 etc.
 
 For more details on the experiemnt, please read the paper.
